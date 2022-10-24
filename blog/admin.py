@@ -12,6 +12,7 @@ class PostAdmin(SummernoteModelAdmin):
     search_fields = ['title', 'content']
     summernote_fields = ('content')
 
+
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
 
